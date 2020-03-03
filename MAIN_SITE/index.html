@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../MAIN_SITE/styles/card.css">
+    <link rel="stylesheet" href="../MAIN_SITE/styles/dropdown_content.css">
+    <link rel="stylesheet" href="../MAIN_SITE/styles/navbar.css">
+    <link rel="stylesheet" href="../MAIN_SITE/styles/sidenav.css">
+
+    <title>TITLE</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left_content">
+                <!-- <i class="fas fa-bars"></i> -->
+                <h1><span style="color: rgb(134, 134, 134);">CS</span>:<span
+                        style="color: rgb(252, 252, 252);">GO</span>
+                </h1>
+            </div>
+            <ul>
+                <li><span>Knives<i id="dropdown_button" class="fas fa-caret-down dd_btn1"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up  ddUP_btn1"></i></span></li>
+                <li><span>Pistols<i id="dropdown_button" class="fas fa-caret-down dd_btn2"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up ddUP_btn2"></i></span></span></li>
+                <li><span>Rifles<i id="dropdown_button" class="fas fa-caret-down  dd_btn3"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up ddUP_btn3"></i></span></li>
+                <li><span>SMGs<i id="dropdown_button" class="fas fa-caret-down dd_btn4"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up ddUP_btn4"></i></span></li>
+                <li><span>Heavy<i id="dropdown_button" class="fas fa-caret-down dd_btn5"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up ddUP_btn5"></i></span></li>
+                <li><span>Gloves<i id="dropdown_button" class="fas fa-caret-down dd_btn6"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up ddUP_btn6"></i></span></li>
+                <li><span>Stickers<i id="dropdown_button" class="fas fa-caret-down dd_btn7"></i><i
+                            id="dropdownUP_button" class="fas fa-caret-up ddUP_btn7"></i></span></li>
+                <li><span>Keys<i id="dropdown_button" class="fas fa-caret-down dd_btn8"></i><i id="dropdownUP_button"
+                            class="fas fa-caret-up ddUP_btn8"></i></span></li>
+            </ul>
+            <div class="right_content">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -31 512.00026 512" width="512px" class="cart">
+
+                    <g>
+                        <path
+                            d="m164.960938 300.003906h.023437c.019531 0 .039063-.003906.058594-.003906h271.957031c6.695312 0 12.582031-4.441406 14.421875-10.878906l60-210c1.292969-4.527344.386719-9.394532-2.445313-13.152344-2.835937-3.757812-7.269531-5.96875-11.976562-5.96875h-366.632812l-10.722657-48.253906c-1.527343-6.863282-7.613281-11.746094-14.644531-11.746094h-90c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h77.96875c1.898438 8.550781 51.3125 230.917969 54.15625 243.710938-15.941406 6.929687-27.125 22.824218-27.125 41.289062 0 24.8125 20.1875 45 45 45h272c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15h-272c-8.269531 0-15-6.730469-15-15 0-8.257812 6.707031-14.976562 14.960938-14.996094zm312.152343-210.003906-51.429687 180h-248.652344l-40-180zm0 0"
+                            data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF" />
+                        <path
+                            d="m150 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"
+                            data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF" />
+                        <path
+                            d="m362 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"
+                            data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF" />
+
+                    </g>
+
+                </svg>
+                <div class="cart_content">
+                    <h1>Your items in cart :</h1>
+                </div>
+                <span style="display: none;" class="cart-items"></span>
+                <svg class="user" aria-hidden="true" focusable="false" data-prefix="far" data-icon="user"
+                    class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z">
+                    </path>
+
+                </svg>
+                <div class="user_content">
+                    <button class="signIn"><a href="../SIGN_IN/signin.html">Sign In</a></button>
+                    <button class="createAccount"><a href="">Sign Up</a></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="knives_content">
+        <ul>
+            <li><a href="">Bayonet</a></li>
+            <li><a href="">Bowie Knife</a></li>
+            <li><a href="">Butterfly Knife</a></li>
+            <li><a href="">Classic Knife</a></li>
+            <li><a href="">Falchion Knife</a></li>
+            <li><a href="">Flip Knife</a></li>
+            <li><a href="">Gut Knife</a></li>
+            <li><a href="">Karambit</a></li>
+            <li><a href="">More<i id="dropdown_button" class="fas fa-caret-down"></i></a></li>
+
+        </ul>
+    </div>
+
+    <div class="pistols_content">
+        <ul>
+            <li><a href="">CZ75-Auto</a></li>
+            <li><a href="">Desert Eagle</a></li>
+            <li><a href="">Dual Brettas</a></li>
+            <li><a href="">Five-SeveN</a></li>
+            <li><a href="">Glock-18</a></li>
+            <li><a href="">P2000</a></li>
+            <li><a href="">P250</a></li>
+            <li><a href="">R8 Revolver</a></li>
+            <li><a href="">More<i id="dropdown_button" class="fas fa-caret-down"></i></a></li>
+
+        </ul>
+    </div>
+
+    <div class="rifles_content">
+        <ul>
+            <li><a href="">AK-47</a></li>
+            <li><a href="">AUG</a></li>
+            <li><a href="">FAMAS</a></li>
+            <li><a href="">Galil AR</a></li>
+            <li><a href="">M4A1-S</a></li>
+            <li><a href="">M4A4</a></li>
+            <li><a href="">AWP</a></li>
+            <li><a href="">SG553</a></li>
+            <li><a href="">More<i id="dropdown_button" class="fas fa-caret-down"></i></a></li>
+
+        </ul>
+    </div>
+
+    <div class="smgs_content">
+        <ul>
+            <li><a href="">Mac-10</a></li>
+            <li><a href="">MP5-SD</a></li>
+            <li><a href="">MP7</a></li>
+            <li><a href="">MP9</a></li>
+            <li><a href="">P90</a></li>
+            <li><a href="">PP-Bizon</a></li>
+            <li><a href="">UMP-45</a></li>
+            <li><a href="">More<i id="dropdown_button" class="fas fa-caret-down"></i></a></li>
+
+        </ul>
+    </div>
+
+    <div class="heavy_content">
+        <ul>
+            <li><a href="">MAG-7</a></li>
+            <li><a href="">Nova</a></li>
+            <li><a href="">Sawed-Off</a></li>
+            <li><a href="">XM1014</a></li>
+            <li><a href="">M249</a></li>
+            <li><a href="">Negev</a></li>
+
+            <li><a href="">More<i id="dropdown_button" class="fas fa-caret-down"></i></a></li>
+
+        </ul>
+    </div>
+
+    <div class="side_nav">
+
+        <h1 class="side_nav_title">Exterior</h1>
+        <hr>
+        <div class="checkbox_list">
+            <div class="cb"> <i id="allItems" class="checkbox_button far fa-check-square active"></i>
+                <span>All</span>
+            </div>
+            <div class="cb"> <i id="factoryNew" class="checkbox_button far fa-check-square "></i>
+                <span>Factory New</span>
+            </div>
+            <div class="cb"> <i id="fieldTested" class="checkbox_button far fa-check-square "></i>
+                <span>Field-Tested</span>
+            </div>
+            <div class="cb"> <i id="minimalWear" class="checkbox_button far fa-check-square "></i>
+                <span>Minimal-Wear</span>
+            </div>
+            <div class="cb"> <i id="wellWorn" class="checkbox_button far fa-check-square "></i>
+                <span>Well-Worn</span>
+            </div>
+            <div class="cb"> <i id="battleScarred" class="checkbox_button far fa-check-square "></i>
+                <span>Battle-Scarred</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="div_for_items">
+
+    </div>
+    <!-- 
+    <div class="card">
+        <h1 class="cardTag">FN</h1>
+        <h1 class="cardTitle">CRIMSON WEB</h1>
+        <h1 class="cardSubtitle">Knife</h1>
+        <img class="cardImage" src="./images/knife.png" alt="">
+        <hr>
+        <h1 class="price"><span style="color: #901919;">$</span>199</h1>
+        <h1 class="steamPrice">Steam Price : $244</h1>
+
+        <button class="addtocart_button">
+            <h1>ADD TO CART</h1>
+        </button>
+
+    </div> -->
+
+
+</body>
+
+<script src="https://kit.fontawesome.com/044a0dfeee.js" crossorigin="anonymous"></script>
+<script src="../MAIN_SITE/scripts/script.js"></script>
+<script src="../MAIN_SITE/scripts/dropdown_content.js"></script>
+<script src="../MAIN_SITE/scripts/showCartItems.js"></script>
+<script src="../MAIN_SITE/scripts/showUser_content.js"></script>
+<script src="../MAIN_SITE/scripts/sidenav.js"></script>
+
+<script>
+
+</script>
+
+</html>

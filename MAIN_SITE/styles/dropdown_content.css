@@ -1,0 +1,248 @@
+/* knives */
+
+.knives_content {
+    width: 100%;
+    position: relative;
+    top: 65px;
+    background-color: #282B30;
+    height: 70px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.knives_content ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.knives_content li {
+    list-style: none;
+}
+
+.knives_content li a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: 'Roboto';
+}
+
+.knives_content li a:hover {
+    position: relative;
+    animation: lTr 0.5s ease-in;
+    animation-iteration-count: 1;
+    transition: 0.4s;
+}
+
+.knives_content li a:hover::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #2CAC49;
+    animation: lTr 0.5s ease-in 1 alternate;
+    animation-fill-mode: forwards;
+    transition: 0.8s;
+    margin-top: 23px;
+}
+
+@keyframes lTr {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%
+    }
+}
+
+/* pistols */
+
+.pistols_content {
+    width: 100%;
+    position: relative;
+    top: 65px;
+    background-color: #282B30;
+    height: 70px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pistols_content ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pistols_content li {
+    list-style: none;
+}
+
+.pistols_content li a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: 'Roboto';
+}
+
+.pistols_content li a:hover {
+    position: relative;
+    animation: lTr 0.5s ease-in;
+    animation-iteration-count: 1;
+    transition: 0.4s;
+}
+
+.pistols_content li a:hover::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #2CAC49;
+    animation: lTr 0.5s ease-in 1 alternate;
+    animation-fill-mode: forwards;
+    transition: 0.8s;
+    margin-top: 23px;
+}
+
+/* rifles */
+
+.rifles_content {
+    width: 100%;
+    position: relative;
+    top: 65px;
+    background-color: #282B30;
+    height: 70px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rifles_content ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rifles_content li {
+    list-style: none;
+}
+
+.rifles_content li a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: 'Roboto';
+}
+
+.rifles_content li a:hover {
+    position: relative;
+    animation: lTr 0.5s ease-in;
+    animation-iteration-count: 1;
+    transition: 0.4s;
+}
+
+.rifles_content li a:hover::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #2CAC49;
+    animation: lTr 0.5s ease-in 1 alternate;
+    animation-fill-mode: forwards;
+    transition: 0.8s;
+    margin-top: 23px;
+}
+
+/* smgs */
+
+.smgs_content {
+    width: 100%;
+    position: relative;
+    top: 65px;
+    background-color: #282B30;
+    height: 70px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.smgs_content ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.smgs_content li {
+    list-style: none;
+}
+
+.smgs_content li a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: 'Roboto';
+}
+
+.smgs_content li a:hover {
+    position: relative;
+    animation: lTr 0.5s ease-in;
+    animation-iteration-count: 1;
+    transition: 0.4s;
+}
+
+.smgs_content li a:hover::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #2CAC49;
+    animation: lTr 0.5s ease-in 1 alternate;
+    animation-fill-mode: forwards;
+    transition: 0.8s;
+    margin-top: 23px;
+}
+
+/* heavy */
+
+.heavy_content {
+    width: 100%;
+    position: relative;
+    top: 65px;
+    background-color: #282B30;
+    height: 70px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heavy_content ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.heavy_content li {
+    list-style: none;
+}
+
+.heavy_content li a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: 'Roboto';
+}
+
+.heavy_content li a:hover {
+    position: relative;
+    animation: lTr 0.5s ease-in;
+    animation-iteration-count: 1;
+    transition: 0.4s;
+}
+
+.heavy_content li a:hover::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #2CAC49;
+    animation: lTr 0.5s ease-in 1 alternate;
+    animation-fill-mode: forwards;
+    transition: 0.8s;
+    margin-top: 23px;
+}

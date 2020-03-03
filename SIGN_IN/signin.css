@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 23, 29);
+}
+
+.div {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 10% 1fr 18%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #303B33;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: -webkit-radial-gradient(top right, #303B33, #19171D);
+    background: -moz-radial-gradient(top right, #303B33, #19171D);
+    background: radial-gradient(to bottom left, #303B33, #19171D);
+}
+
+form {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 50px;
+    font-family: 'Archivo Black';
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    font-size: 1vw;
+    border: transparent;
+    outline: none;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.emailLabel {
+    width: 300px;
+    text-align: left;
+    color: #2CAC49;
+    font-family: 'Archivo Black';
+}
+
+.emailInput {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.password {
+    width: 300px;
+    text-align: left;
+    color: #2CAC49;
+    font-family: 'Archivo Black';
+}
+
+#submit_signIn {
+    height: 60px;
+    width: 300px;
+    margin-top: 50px;
+    color: rgb(25, 23, 29);
+    background-color: #2CAC49;
+    border: transparent;
+    font-family: 'Archivo Black';
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
+
+.via {
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.via hr {
+    border: .5px rgb(78, 78, 78) solid;
+}
+
+.viaText {
+    position: relative;
+    top: 30px;
+    font-family: 'Archivo Black';
+    font-weight: 400;
+}
+
+.steamImage {
+    width: 150px;
+    margin-top: 50px;
+}
+
+.close {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.close:hover {
+    color: rgb(185, 0, 0);
+}
+
+.logo {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    color: white;
+    font-family: 'Archivo Black';
+}
+
+.content {
+    color: white;
+    font-family: 'Archivo Black';
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inputBox {
+    height: 50px;
+    width: 300px;
+    font-size: 1vw;
+    border: transparent;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 250px 50px;
+}
+
+.passwordInput {
+    width: 250px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.showHide {
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border: transparent;
+    background-color: white;
+    border: transparent;
+}
+
+.eye {
+    color: rgb(71, 71, 71);
+    width: 20px;
+    height: 20px;
+}
+
+.eye-slash {
+    visibility: hidden;
+    color: rgb(71, 71, 71);
+    width: 22px;
+    height: 20px;
+    position: absolute;
+}
+
+.eye2 {
+    color: rgb(71, 71, 71);
+    width: 20px;
+    height: 20px;
+}
+
+.eye-slash2 {
+    visibility: hidden;
+    color: rgb(71, 71, 71);
+    width: 22px;
+    height: 20px;
+    position: absolute;
+}
+
+.eye3 {
+    color: rgb(71, 71, 71);
+    width: 20px;
+    height: 20px;
+}
+
+.eye-slash3 {
+    visibility: hidden;
+    color: rgb(71, 71, 71);
+    width: 22px;
+    height: 20px;
+    position: absolute;
+}
+
+.chooseRegistration {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 60px;
+    color: white;
+}
+
+.signInText {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    text-decoration: none;
+    grid-column: 1/2;
+}
+
+.signUpText {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    text-decoration: none;
+    grid-column: 2/3;
+    justify-self: flex-end;
+}
+
+.active {
+    color: rgb(185, 0, 0);
+}
+
+.usernameLabel {
+    width: 300px;
+    text-align: left;
+    color: #2CAC49;
+    font-family: 'Archivo Black';
+}
+
+.repeatPasswordLabel {
+    width: 300px;
+    text-align: left;
+    color: #2CAC49;
+    font-family: 'Archivo Black';
+}
+
+.repeatPasswordInput {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.passwordInput2 {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 750px) {
+    .close {
+        position: relative;
+        right: 70px;
+        color: white;
+        width: 20px;
+        height: 20px;
+    }
+    .logo {
+        position: relative;
+        left: 60px;
+        font-size: 20px;
+        grid-column: 1/2;
+    }
+    .heading {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 50px;
+        font-family: 'Archivo Black';
+    }
+    .div {
+        display: grid;
+        grid-template-columns: 1% 1fr 1%;
+        grid-template-rows: 5% 1fr 5%;
+    }
+    .chooseRegistration {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        position: relative;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 60px;
+        color: white;
+    }
+}

@@ -1,0 +1,44 @@
+.side_nav {
+    margin-top: 65px;
+    background-color: #232728;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    font-family: 'Roboto';
+}
+
+.side_nav hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.checkbox_list {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.checkbox_list span {
+    color: white;
+    padding-left: 10px;
+}
+
+.side_nav_title {
+    font-size: 1.6vw;
+    color: #2CAC49;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.cb {
+    margin-top: 50px;
+}
+
+.active {
+    color: #45DB66;
+}
+
+.cb {
+    color: #6A6C6A;
+}

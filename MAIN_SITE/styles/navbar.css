@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: #1d2021;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 65px;
+    position: fixed;
+    z-index: 1001;
+}
+
+.left_content {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15%;
+}
+
+/* .left_content i {
+    color: white;
+    font-size: 1.2vw;
+} */
+
+.left_content h1 {
+    color: rgb(216, 216, 216);
+    font-family: 'Roboto', ;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul span {
+    text-decoration: none;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-family: 'Roboto';
+    user-select: none;
+}
+
+#dropdown_button:hover {
+    color: rgb(185, 0, 0);
+}
+
+#dropdownUP_button:hover {
+    color: rgb(185, 0, 0);
+}
+
+#dropdown_button {
+    padding-left: 8px;
+    color: #999999;
+}
+
+#dropdownUP_button {
+    display: none;
+    padding-left: 8px;
+    color: #999999;
+}
+
+.right_content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.cart {
+    width: 1.5vw;
+}
+
+.user {
+    width: 1.2vw;
+    color: #2CAC49;
+    margin-left: 30px;
+}
+
+.cart-items {
+    background: rgb(185, 0, 0);
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 17px;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top: -10px;
+    width: 20px;
+    border: 1px solid #fff;
+    font-family: 'Roboto';
+}
+
+.cart_content {
+    background-color: rgb(44, 44, 49);
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    width: 400px;
+    display: none;
+    justify-content: left;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+.cart_content h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-weight: 600;
+    user-select: none;
+}
+
+.user_content {
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    user-select: none;
+}
+
+.signIn {
+    border: 1px rgb(34, 34, 34) solid;
+    background-color: rgb(44, 44, 49);
+    height: 50px;
+    user-select: none;
+    outline: none;
+}
+
+.signIn:hover {
+    background-color: rgb(49, 49, 54);
+}
+
+.signIn a {
+    text-decoration: none;
+    color: #2CAC49;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: .9vw;
+}
+
+.createAccount {
+    border: 1px rgb(34, 34, 34) solid;
+    background-color: rgb(44, 44, 49);
+    color: #2CAC49;
+    height: 50px;
+    outline: none;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.createAccount:hover {
+    background-color: rgb(49, 49, 54);
+}
+
+.createAccount a {
+    text-decoration: none;
+    color: #2CAC49;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: .9vw;
+}

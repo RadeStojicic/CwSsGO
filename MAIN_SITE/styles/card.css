@@ -1,0 +1,88 @@
+.card {
+    background-color: #2E3132;
+    font-family: 'Montserrat';
+    width: 250px;
+    height: 330px;
+}
+
+.container {
+    position: absolute;
+    left: 22.5%;
+    top: 15%;
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.cardImage {
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cardTag {
+    color: #901919;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 3px;
+    padding: 3px;
+}
+
+.cardTitle {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.cardSubtitle {
+    color: #2CAC49;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card hr {
+    width: 80%;
+    margin: auto;
+    border: .4px rgb(128, 128, 128) solid;
+}
+
+.price {
+    padding-top: 5px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.steamPrice {
+    padding-top: 3%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    color: #B1B1B1;
+}
+
+.addtocart_button {
+    width: 250px;
+    background-color: #1E1717;
+    position: relative;
+    top: 23px;
+    height: 50px;
+    border: none;
+}
+
+.addtocart_button h1 {
+    font-size: 13px;
+    font-weight: 800;
+    color: #ffffff;
+}
