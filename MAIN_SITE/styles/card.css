@@ -3,6 +3,7 @@
     font-family: 'Montserrat';
     width: 250px;
     height: 330px;
+    z-index: -1;
 }
 
 .container {
@@ -11,7 +12,7 @@
     top: 15%;
     padding-right: 5%;
     display: grid;
-    grid-template-columns: repeat(5, 250px);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     column-gap: 20px;
     row-gap: 20px;

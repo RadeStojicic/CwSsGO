@@ -23,12 +23,12 @@ nav {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 .left_content h1 {
     color: rgb(216, 216, 216);
-    font-family: 'Roboto', ;
+    font-family: 'Roboto';
 }
 
 nav ul {
@@ -69,7 +69,7 @@ nav ul span {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 25px;
+    padding-right: 30px;
 }
 
 .cart {
@@ -106,7 +106,6 @@ nav ul span {
     top: 65px;
     right: 0px;
     width: 400px;
-    display: none;
     justify-content: left;
     padding-bottom: 100px;
     height: auto;
@@ -126,7 +125,6 @@ nav ul span {
     top: 65px;
     right: 0px;
     width: 200px;
-    display: none;
     flex-direction: column;
     user-select: none;
 }
@@ -171,4 +169,22 @@ nav ul span {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: .9vw;
+}
+
+.register_button {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-weight: 500;
+    width: 100px;
+    border: 1px #2CAC49 solid;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    height: 35px;
+    font-size: 14px;
+    background-color: #2CAC49;
+}
+
+.register_button:hover {
+    background-color: rgb(40, 160, 68);
 }
