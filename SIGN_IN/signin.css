@@ -15,13 +15,13 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: #303B33;
+    background: rgb(29, 34, 31);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: -webkit-radial-gradient(top right, #303B33, #19171D);
-    background: -moz-radial-gradient(top right, #303B33, #19171D);
-    background: radial-gradient(to bottom left, #303B33, #19171D);
+    background: -webkit-radial-gradient(top right, rgb(37, 44, 39), #19171D);
+    background: -moz-radial-gradient(top right, rgb(32, 37, 33), #19171D);
+    background: radial-gradient(to bottom left, rgb(35, 41, 36), #19171D);
 }
 
 form {

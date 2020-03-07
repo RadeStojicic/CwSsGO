@@ -149,3 +149,17 @@ function clearAllClassFromArray(array, className) {
     });
 }
 
+
+let skinCounter1 = document.querySelector(".skinCounter1");
+let skinCounter2 = document.querySelector(".skinCounter2");
+let skinCounter3 = document.querySelector(".skinCounter3");
+let skinCounter4 = document.querySelector(".skinCounter4");
+let skinCounter5 = document.querySelector(".skinCounter5");
+let skinCounter6 = document.querySelector(".skinCounter6");
+
+skinCounter1.innerHTML += all.length - 1;
+skinCounter2.innerHTML += factoryNew.length;
+skinCounter3.innerHTML += fieldTested.length;
+skinCounter4.innerHTML += minimalWear.length;
+skinCounter5.innerHTML += wellWorn.length;
+skinCounter6.innerHTML += battleScarred.length;

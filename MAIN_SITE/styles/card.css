@@ -9,6 +9,7 @@
     position: absolute;
     left: 22.5%;
     top: 15%;
+    padding-right: 5%;
     display: grid;
     grid-template-columns: repeat(5, 250px);
     grid-template-rows: auto;
@@ -18,6 +19,7 @@
 
 .cardImage {
     width: 150px;
+    height: 110px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);

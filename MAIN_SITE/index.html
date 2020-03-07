@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../MAIN_SITE/styles/dropdown_content.css">
     <link rel="stylesheet" href="../MAIN_SITE/styles/navbar.css">
     <link rel="stylesheet" href="../MAIN_SITE/styles/sidenav.css">
+    <link rel="stylesheet" href="../MAIN_SITE/styles/responsive.css">
 
     <title>TITLE</title>
 </head>
@@ -21,9 +22,8 @@
     <header>
         <nav>
             <div class="left_content">
-                <!-- <i class="fas fa-bars"></i> -->
-                <h1><span style="color: rgb(134, 134, 134);">CS</span>:<span
-                        style="color: rgb(252, 252, 252);">GO</span>
+                <i class="fas fa-bars hamburger"></i>
+                <h1 style="font-family: 'Roboto';">LOGO
                 </h1>
             </div>
             <ul>
@@ -79,6 +79,64 @@
                 </div>
             </div>
         </nav>
+
+        <div class="responsive_navbar">
+            <div class="firstC">
+                <h1>All Items</h1>
+                <hr>
+                <ul class="ul_responsive1">
+                    <li><span>Knives<i id="dropdown_button" class="fas fa-caret-down dd_btn1"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up  ddUP_btn1"></i></span></li>
+                    <li><span>Pistols<i id="dropdown_button" class="fas fa-caret-down dd_btn2"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn2"></i></span></span></li>
+                    <li><span>Rifles<i id="dropdown_button" class="fas fa-caret-down  dd_btn3"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn3"></i></span></li>
+                    <li><span>SMGs<i id="dropdown_button" class="fas fa-caret-down dd_btn4"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn4"></i></span></li>
+                    <li><span>Heavy<i id="dropdown_button" class="fas fa-caret-down dd_btn5"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn5"></i></span></li>
+                    <li><span>Gloves<i id="dropdown_button" class="fas fa-caret-down dd_btn6"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn6"></i></span></li>
+                    <li><span>Stickers<i id="dropdown_button" class="fas fa-caret-down dd_btn7"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn7"></i></span></li>
+                    <li><span>Keys<i id="dropdown_button" class="fas fa-caret-down dd_btn8"></i><i
+                                id="dropdownUP_button" class="fas fa-caret-up ddUP_btn8"></i></span></li>
+                </ul>
+            </div>
+            <div class="secondC">
+
+                <h1 class="side_nav_title">Exterior</h1>
+                <hr>
+                <div class="checkbox_list">
+                    <div class="cb"> <i id="allItems" class="checkbox_button far fa-check-square active"></i>
+                        <span>All</span>
+                        <p class="skinCounter1"></p>
+                    </div>
+                    <div class="cb"> <i id="factoryNew" class="checkbox_button far fa-check-square "></i>
+                        <span>Factory New</span>
+                        <p class="skinCounter2"></p>
+                    </div>
+                    <div class="cb"> <i id="fieldTested" class="checkbox_button far fa-check-square "></i>
+                        <span>Field-Tested</span>
+                        <p class="skinCounter3"></p>
+                    </div>
+                    <div class="cb"> <i id="minimalWear" class="checkbox_button far fa-check-square "></i>
+                        <span>Minimal-Wear</span>
+                        <p class="skinCounter4"></p>
+                    </div>
+                    <div class="cb"> <i id="wellWorn" class="checkbox_button far fa-check-square "></i>
+                        <span>Well-Worn</span>
+                        <p class="skinCounter5"></p>
+                    </div>
+                    <div class="cb"> <i id="battleScarred" class="checkbox_button far fa-check-square "></i>
+                        <span>Battle-Scarred</span>
+                        <p class="skinCounter6"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </header>
 
     <div class="knives_content">
@@ -161,21 +219,27 @@
         <div class="checkbox_list">
             <div class="cb"> <i id="allItems" class="checkbox_button far fa-check-square active"></i>
                 <span>All</span>
+                <p class="skinCounter1"></p>
             </div>
             <div class="cb"> <i id="factoryNew" class="checkbox_button far fa-check-square "></i>
                 <span>Factory New</span>
+                <p class="skinCounter2"></p>
             </div>
             <div class="cb"> <i id="fieldTested" class="checkbox_button far fa-check-square "></i>
                 <span>Field-Tested</span>
+                <p class="skinCounter3"></p>
             </div>
             <div class="cb"> <i id="minimalWear" class="checkbox_button far fa-check-square "></i>
                 <span>Minimal-Wear</span>
+                <p class="skinCounter4"></p>
             </div>
             <div class="cb"> <i id="wellWorn" class="checkbox_button far fa-check-square "></i>
                 <span>Well-Worn</span>
+                <p class="skinCounter5"></p>
             </div>
             <div class="cb"> <i id="battleScarred" class="checkbox_button far fa-check-square "></i>
                 <span>Battle-Scarred</span>
+                <p class="skinCounter6"></p>
             </div>
         </div>
 
@@ -208,6 +272,7 @@
 <script src="../MAIN_SITE/scripts/showCartItems.js"></script>
 <script src="../MAIN_SITE/scripts/showUser_content.js"></script>
 <script src="../MAIN_SITE/scripts/sidenav.js"></script>
+<script src="../MAIN_SITE/scripts/responsive_navbar.js"></script>
 
 <script>
 

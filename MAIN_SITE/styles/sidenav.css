@@ -31,14 +31,18 @@
     padding-top: 30px;
 }
 
-.cb {
-    margin-top: 50px;
-}
-
 .active {
     color: #45DB66;
 }
 
 .cb {
+    margin-top: 50px;
+    display: flex;
     color: #6A6C6A;
+}
+
+.skinCounter1, .skinCounter2, .skinCounter3, .skinCounter4, .skinCounter5, .skinCounter6 {
+    position: absolute;
+    right: 10px;
+    color: rgb(112, 112, 112);
 }

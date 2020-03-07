@@ -1,0 +1,272 @@
+.hamburger {
+    visibility: hidden;
+}
+
+.responsive_navbar {
+    display: none;
+}
+
+@media screen and (max-width: 1350px) {
+    .hamburger {
+        visibility: visible;
+        color: white;
+        font-size: 22px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav {
+        background-color: #1d2021;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr 150px;
+        grid-template-rows: 65px;
+        position: fixed;
+        z-index: 1001;
+    }
+    .side_nav {
+        display: none;
+    }
+    .container {
+        position: relative;
+        top: 90px;
+        left: 0%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+        width: 95%;
+        margin: auto;
+        padding-right: 0%;
+        column-gap: 20px;
+        row-gap: 25px;
+    }
+    .card {
+        justify-self: center;
+        align-content: center;
+        margin: 0px 10px 0px 10px;
+    }
+    .left_content {
+        grid-column: 1/2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .right_content {
+        display: flex;
+        grid-column: 3/4;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 5%;
+    }
+    .responsive_navbar {
+        background-color: #26262B;
+        display: none;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        font-family: 'Roboto';
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    .firstC {
+        grid-column: 1/2;
+        margin-top: 100px;
+        padding-left: 5%;
+        color: #2CAC49;
+    }
+    .firstC hr {
+        width: 30%;
+    }
+    .ul_responsive1 {
+        margin: 20px 0px 25px 0px;
+        color: white;
+    }
+    .ul_responsive1 li {
+        list-style: none;
+        margin-top: 10px;
+    }
+    .secondC {
+        grid-column: 2/3;
+        margin-top: 100px;
+        font-family: 'Roboto';
+        padding-right: 5%;
+    }
+    .secondC hr {
+        width: 30%;
+    }
+    .checkbox_list {
+        width: 100%;
+        margin: auto;
+        padding-top: 0px;
+    }
+    .checkbox_list span {
+        color: white;
+    }
+    .side_nav_title {
+        padding-top: 0px;
+        width: 100%;
+        font-size: 2em;
+        color: #2CAC49;
+    }
+    .active {
+        color: #45DB66;
+    }
+    .cb {
+        display: flex;
+        color: #6A6C6A;
+        margin-top: 20px;
+    }
+    .skinCounter1, .skinCounter2, .skinCounter3, .skinCounter4, .skinCounter5, .skinCounter6 {
+        position: absolute;
+        right: 35px;
+        color: rgb(112, 112, 112);
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .container {
+        position: relative;
+        top: 90px;
+        left: 0%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        width: 97%;
+        margin: auto;
+        padding-right: 0%;
+        column-gap: 5px;
+        row-gap: 45px;
+    }
+    .card {
+        justify-self: center;
+        align-content: center;
+        width: 210px;
+        height: 280px;
+    }
+    .cardImage {
+        width: 100px;
+        height: 90px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 15px;
+    }
+    .cardTag {
+        color: #901919;
+        font-size: 12px;
+        text-align: right;
+        margin-right: 3px;
+        padding: 3px;
+    }
+    .cardTitle {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: 300;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .cardSubtitle {
+        color: #2CAC49;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .card hr {
+        width: 80%;
+        margin: auto;
+        border: .4px rgb(128, 128, 128) solid;
+    }
+    .price {
+        padding-top: 5px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 28px;
+    }
+    .steamPrice {
+        padding-top: 3%;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 10px;
+        color: #B1B1B1;
+    }
+    .addtocart_button {
+        width: 210px;
+        background-color: #1E1717;
+        position: relative;
+        top: 23px;
+        height: 45px;
+        border: none;
+    }
+    .addtocart_button h1 {
+        font-size: 13px;
+        font-weight: 800;
+        color: #ffffff;
+    }
+    .responsive_navbar {
+        background-color: #26262B;
+        display: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        font-family: 'Roboto';
+        width: 100%;
+        z-index: 1000;
+    }
+    .firstC {
+        grid-row: 1/2;
+        margin-top: 100px;
+        padding-left: 7%;
+        color: #2CAC49;
+    }
+    .firstC hr {
+        width: 150px;
+    }
+    .ul_responsive1 {
+        margin: 20px 0px 25px 0px;
+        color: white;
+    }
+    .ul_responsive1 li {
+        list-style: none;
+        margin-top: 15px;
+    }
+    .secondC {
+        grid-column: 1;
+        grid-row: 2/3;
+        margin-top: 0px;
+        font-family: 'Roboto';
+        padding-left: 7%;
+    }
+    .secondC hr {
+        width: 150px;
+    }
+    .checkbox_list {
+        width: 100%;
+        margin: auto;
+        padding-top: 0px;
+    }
+    .checkbox_list span {
+        color: white;
+    }
+    .side_nav_title {
+        padding-top: 0px;
+        width: 100%;
+        font-size: 2em;
+        color: #2CAC49;
+    }
+    .active {
+        color: #45DB66;
+    }
+    .cb {
+        display: flex;
+        color: #6A6C6A;
+        margin-top: 20px;
+    }
+    .skinCounter1, .skinCounter2, .skinCounter3, .skinCounter4, .skinCounter5, .skinCounter6 {
+        position: absolute;
+        right: 35px;
+        color: rgb(112, 112, 112);
+    }
+}
